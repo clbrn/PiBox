@@ -124,7 +124,16 @@ sudo apt install dnsmasq iptables iptables-persistent
 ```
 sudo nano /etc/sysctl.d/98-rpi.conf
 ```
-Ajouter la ligne **net.ipv4.ip_forward=1** à la fin du fichier
+Ajouter la ligne **net.ipv4.ip_forward=1** à la fin du fichier  
+
+### Creation du Bridge et rattachement de l'interface eth0
+```
+sudo nmcli connection add type bridge con-name 'Bridge' ifname br0
+```
+
+```
+sudo nmcli connection add type ethernet slave-type bridge con-name 'Ethernet' ifname eth0 master br0
+```
 
 
 ## cloner le dépot PiBox
