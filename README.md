@@ -165,7 +165,7 @@ Déconnecter le Raspberry du réseau local
 Déconnecter le Mac du réseau local   
 Connecter le Mac sur le port Ethernet du raspberry   
 
-Aprés le reboot vérifier l'adresse IP du MAC
+Aprés le reboot vérifier l'adresse IP du MAC   
 <img width="523" height="398" alt="image" src="https://github.com/user-attachments/assets/eb1da1d8-76f5-40ec-b79d-9096a8959a7a" />
 
 Le Mac est bien connecté à une adresse IP définie das le range de dnsmasq
