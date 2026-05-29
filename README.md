@@ -49,7 +49,7 @@ puis faire un Reboot
 ```
 sudo minicom -b 115200 -D /dev/ttyUSB2
 ```
-Passer les commande ATE puis AT
+Passer les commandes ATE puis AT.  
 Réponses attendues Ok (le premier ATE ne sera peut-etre pas visible si l'écho nest pas activé par défaut   
 <img width="509" height="219" alt="image" src="https://github.com/user-attachments/assets/626f68c5-73a1-4d3a-88d7-3e25e438fe8e" />
    
