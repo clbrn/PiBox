@@ -182,6 +182,12 @@ A ce stade, le Raspberry est connecté a internet, mais la connexion n'est pas p
 sudo iptables -t nat -A POSTROUTING -o wwan0 -j MASQUERADE
 ```
 ```
+sudo iptables -A FORWARD -i eth0 -j ACCEPT
+```
+```
+sudo iptables -A FORWARD -o eth0 -j ACCEPT
+```
+```
 sudo iptables -A FORWARD -i wlan0 -j ACCEPT
 ```
 ```
@@ -189,8 +195,9 @@ sudo iptables -A FORWARD -o wlan0 -j ACCEPT
 ```
 
 ### iptables-persistent
+```
 sudo sh -c "iptables-save > /etc/iptables/rules.v4"
-
+```
 
 ## cloner le dépot PiBox
 ```
