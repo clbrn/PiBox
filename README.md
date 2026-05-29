@@ -20,7 +20,7 @@ Choissir **"Fr"** dans la liste et valider
 Choix **3** _Interface Option_, puis choix **I6** _Serial Port_
 répondre **Non** à la première question et **Oui** à la deuxième   
 Puis encore **Oui** pour valider  
-<span style="color: green"> Quitter et accepter le reboot </span>   
+<font color="green"> Some green text </font>   
 
 
 ## Vérification Modem
