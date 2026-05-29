@@ -9,7 +9,7 @@ utilisateur  : _pibox_
 mot de passe : _pibox_   
 
 ## connexion au Raspberry avec le Mac
-Le Raspbery est connecté au réseau local via Ethernet, recherche de l'adresse ip (j'utilise Angry IP Scaner) ici 192.168.1.34  
+Le Raspbery est connecté au réseau local via Ethernet, recherche de l'adresse ip (j'utilise Angry IP Scaner) pour moi 192.168.1.34  
 connexion au Mac avec le terminal
 ```
 ssh pibox@192.168.1.34
