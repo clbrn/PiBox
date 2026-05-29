@@ -160,10 +160,10 @@ dhcp-range=192.168.0.10,192.168.0.100,12h
 server=8.8.8.8
 ```
 
-Faire un Reboot
-Déconnecter le Raspberry du réseau local
-Déconnecter le Mac du réseau local
-Connecter le Mac sur le port Ethernet du raspberry
+Faire un Reboot   
+Déconnecter le Raspberry du réseau local   
+Déconnecter le Mac du réseau local   
+Connecter le Mac sur le port Ethernet du raspberry   
 
 
 ## cloner le dépot PiBox
