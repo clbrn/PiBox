@@ -122,7 +122,7 @@ sudo apt install dnsmasq iptables iptables-persistent
 
 ### Activation du forwarding
 ```
-sudo apt install dnsmasq iptables iptables-persistent
+sudo nano /etc/sysctl.d/98-rpi.conf
 ```
 Ajouter la ligne **net.ipv4.ip_forward=1** à la fin du fichier
 
