@@ -46,6 +46,14 @@ Réponses attendues Ok (le premier ATE ne sera peut-etre pas visible si l'écho 
    
 Quitter minicom (_ctrl A puis X_)
 
+## Identification Modem avec Modem Manager
+```
+sudo mmcli -L
+```
+<img width="763" height="111" alt="image" src="https://github.com/user-attachments/assets/559bd640-921f-4d3e-a332-e6792ee789ef" />
+
+Ici modem 0
+
 ## cloner le dépot PiBox
 ```
 git clone https://github.com/clbrn/PiBox.git
