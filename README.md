@@ -94,6 +94,13 @@ Modem connecté, adresse IP obtenue
 sudo ip link set wwan0 up
 ```
 
+## Création de la connexion avec Network-Manager 
+```
+sudo nmcli connection add type gsm ifname '*' con-name 'orange' apn 'orange' connection.autoconnect yes
+```
+<img width="880" height="96" alt="image" src="https://github.com/user-attachments/assets/eedaaff8-c1e7-4a20-9a14-93b93206f0ae" />
+
+
 ## cloner le dépot PiBox
 ```
 git clone https://github.com/clbrn/PiBox.git
