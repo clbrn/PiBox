@@ -8,11 +8,14 @@ nom de l'hote : **PiBox**
 utilisateur  : _pibox_   
 mot de passe : _pibox_   
 
-## Mise a jour configuration raspberry
+## Mise a jour configuration Raspberry
 Activation du port serie et parametrage du pay pour le WiFi   
 ```
 sudo raspi-config
 ```
+Choix **3** _Interface Option_, puis choix **I6** _Serial Port_
+répondre **Non** à la première question et **Oui** à la deuxième
+
 ## cloner le dépot PiBox
 ```
 git clone https://github.com/clbrn/PiBox.git
