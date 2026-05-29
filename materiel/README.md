@@ -5,3 +5,6 @@
 
 ## Adaptateur mini PCIE USB  
 <img width="1120" height="529" alt="image" src="https://github.com/user-attachments/assets/362242dc-6bb1-4c37-b4c0-50e787fe0738" />
+
+## Carte SIM Orange  
+J'ai utilisé la Multi Sim qui est normalement dans mon iPad
