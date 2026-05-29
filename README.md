@@ -24,8 +24,6 @@ Quitter (_Finish_) et accepter le Reboot
 
 ## Vérification Modem
 <img width="719" height="142" alt="image" src="https://github.com/user-attachments/assets/a0f0f035-68aa-4fe6-a9aa-4882d9aa86c1" />
-   
-Quitter minicom : _ctrl A puis X_   
 
 ## Mise à niveau PI OS
 ```
@@ -45,6 +43,7 @@ sudo minicom -b 115200 -D /dev/ttyUSB2
 Passer les commande ATE puis AT
 Réponses attendues Ok (le premier ATE ne sera peut-etre pas visible si l'écho nest pas activé par défaut   
 <img width="509" height="219" alt="image" src="https://github.com/user-attachments/assets/626f68c5-73a1-4d3a-88d7-3e25e438fe8e" />
+   
 Quitter minicom (_ctrl A puis X_)
 
 ## cloner le dépot PiBox
