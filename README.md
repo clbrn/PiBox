@@ -23,6 +23,9 @@ Puis encore **Oui** pour valider
 Quitter et accepter le Reboot   
 
 ## Vérification Modem
+<img width="719" height="142" alt="image" src="https://github.com/user-attachments/assets/a0f0f035-68aa-4fe6-a9aa-4882d9aa86c1" />
+
+
 ```
 pibox@PiBox:~ $ lsusb
 Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
