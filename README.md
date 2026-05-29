@@ -104,8 +104,8 @@ Vérification des connexions et des Devices Network Manager
 <img width="764" height="210" alt="image" src="https://github.com/user-attachments/assets/f42069d5-c5d0-44cd-a897-75e18e5d1bd1" />
 
 
-A ce stade le Raspberry et connexté à Internet, mais la connexion n'est pas partagée.   
-Vérification en faisant un Poing sur l'interface wwan0
+A ce stade le Raspberry et connecté à Internet, mais la connexion n'est pas partagée.   
+Vérification en faisant un ping sur l'interface wwan0
 ```
 ping -c 5 -I wwan0 google.fr
 ```
@@ -169,13 +169,13 @@ Aprés le reboot vérifier l'adresse IP du MAC
 <img width="523" height="398" alt="image" src="https://github.com/user-attachments/assets/eb1da1d8-76f5-40ec-b79d-9096a8959a7a" />
 
 Le Mac est bien connecté à une adresse IP définie das le range de dnsmasq.   
-La passerelle (le Raspbere a bien l'IP statique définie pour le Bridge.   
+La passerelle (le Raspbere a bien l'IP statique définie pour le Bridge).    
 Il est possible de se reconnecter au Raspberry via le terminal du Mac avec l'IP de la passerelle.   
 ```
 ssh pibox@192.168.0.1
 ```
 
-A ce stade, le Raspberry est connecté a internet, mais la connexion n'est pas partagés avec les appareils connectés par Ethernet ou par Wifi
+Le Raspberry est connecté a internet, mais la connexion n'est pas encore partagés avec les appareils connectés par Ethernet ou par Wifi
 
 ### Mise en place des iptables
 ```
@@ -200,7 +200,7 @@ sudo sh -c "iptables-save > /etc/iptables/rules.v4"
 ```
    
 Maintenat le Mac peut accéder a Internet.   
-Ouverture d'une nouvelle fenetre du terminal sur le Mac.   
+Ouverture d'une nouvelle fenêtre du terminal sur le Mac.   
 et faire in ping.   
 <img width="657" height="280" alt="image" src="https://github.com/user-attachments/assets/1eb4da62-fadc-4e53-8e98-c84973ba8fb6" />
 
