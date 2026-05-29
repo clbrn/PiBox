@@ -199,6 +199,14 @@ sudo iptables -A FORWARD -o wlan0 -j ACCEPT
 sudo sh -c "iptables-save > /etc/iptables/rules.v4"
 ```
 
+Maintenat le Mac peut accéder a Internet
+Ouverture d'une nouvelle fenetre du terminal sur le Mas
+et faire in ping
+<img width="657" height="280" alt="image" src="https://github.com/user-attachments/assets/1eb4da62-fadc-4e53-8e98-c84973ba8fb6" />
+
+ **C'est tout Bon...**   
+
+
 ## cloner le dépot PiBox
 ```
 git clone https://github.com/clbrn/PiBox.git
