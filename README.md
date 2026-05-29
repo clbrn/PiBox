@@ -168,13 +168,28 @@ Connecter le Mac sur le port Ethernet du raspberry
 Aprés le reboot vérifier l'adresse IP du MAC   
 <img width="523" height="398" alt="image" src="https://github.com/user-attachments/assets/eb1da1d8-76f5-40ec-b79d-9096a8959a7a" />
 
-Le Mac est bien connecté à une adresse IP définie das le range de dnsmasq
-La passerelle (le Raspbere a bien l'IP statique définie pour le Bridge
-Il est possible de se reconnecter au Raspberry via le terminal du Mac avec l'IP de la passerelle
+Le Mac est bien connecté à une adresse IP définie das le range de dnsmasq.   
+La passerelle (le Raspbere a bien l'IP statique définie pour le Bridge.   
+Il est possible de se reconnecter au Raspberry via le terminal du Mac avec l'IP de la passerelle.   
 ```
 ssh pibox@192.168.0.1
 ```
 
+A ce stade, le Raspberry est connecté a internet, mais la connexion n'est pas partagés avec les appareils connectés par Ethernet ou par Wifi
+
+### Mise en place des iptables
+```
+sudo iptables -t nat -A POSTROUTING -o wwan0 -j MASQUERADE
+```
+```
+sudo iptables -A FORWARD -i wlan0 -j ACCEPT
+```
+```
+sudo iptables -A FORWARD -o wlan0 -j ACCEPT
+```
+
+### iptables-persistent
+sudo sh -c "iptables-save > /etc/iptables/rules.v4"
 
 
 ## cloner le dépot PiBox
