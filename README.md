@@ -147,6 +147,19 @@ sudo nmcli connection add con-name PiBox ifname wlan0 type wifi slave-type bridg
 sudo nmcli con mod "Bridge" ipv4.method manual ipv4.addresses 192.168.0.1/24
 ```
 
+### Configuration de dnsmasq
+```
+sudo nano /etc/dnsmasq.conf
+```
+Ajout des lignes à la fin du fichier :
+```
+#
+# PiBox
+interface=br0
+dhcp-range=192.168.0.10,192.168.0.100,12h
+server=8.8.8.8
+```
+
 
 ## cloner le dépot PiBox
 ```
