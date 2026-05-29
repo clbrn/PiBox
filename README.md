@@ -72,7 +72,15 @@ sudo mmcli -m 0 --enable
 ```
 sudo mmcli -m 0 --simple-connect='apn=orange,ip-type=ipv4v6'
 ```   
-Trace écran a **rajouter**   
+<img width="674" height="101" alt="image" src="https://github.com/user-attachments/assets/1e0a7899-8c29-476f-8f26-96b1da4bd433" />
+
+Recherche du Bearer
+```
+sudo mmcli -m 0
+```
+<img width="581" height="97" alt="image" src="https://github.com/user-attachments/assets/62079238-8a06-4cce-aef9-5680087ca95e" />
+
+Le Bearer est tout à la fin, ici **1**  
 
 ```
 sudo mmcli -m 0 -b 1
