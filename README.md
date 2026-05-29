@@ -59,9 +59,11 @@ Ici modem 0
 sudo mmcli -m 0 --enable
 ```
 <img width="632" height="117" alt="image" src="https://github.com/user-attachments/assets/64681260-4577-449d-9ec1-7698111a2e86" />
+
 ```
 sudo mmcli -m 0 --simple-connect='apn=orange,ip-type=ipv4v6'
 ```
+
 ```
 sudo mmcli -m 0 -b 1
 ```
