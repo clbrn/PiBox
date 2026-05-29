@@ -134,6 +134,13 @@ sudo nmcli connection add type bridge con-name 'Bridge' ifname br0
 ```
 sudo nmcli connection add type ethernet slave-type bridge con-name 'Ethernet' ifname eth0 master br0
 ```
+<img width="863" height="114" alt="image" src="https://github.com/user-attachments/assets/61399ffd-8fd7-48da-9700-72ba16f887b7" />
+
+### Céation du Hotspot rattaché au Bridge
+```
+sudo nmcli connection add con-name PiBox ifname wlan0 type wifi slave-type bridge master br0 wifi.mode ap wifi.ssid PiBox wifi-sec.key-mgmt wpa-psk wifi-sec.proto rsn wifi-sec.pairwise ccmp wifi-sec.psk votrepassword
+```
+<img width="984" height="102" alt="image" src="https://github.com/user-attachments/assets/64fe0515-74ce-48c0-9ba9-b9157c2382ce" />
 
 
 ## cloner le dépot PiBox
