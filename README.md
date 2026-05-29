@@ -24,6 +24,7 @@ Quitter (_Finish_) et accepter le Reboot
 
 ## Vérification Modem
 <img width="719" height="142" alt="image" src="https://github.com/user-attachments/assets/a0f0f035-68aa-4fe6-a9aa-4882d9aa86c1" />   
+Quitter minicom : _ctrl A puis X_   
 
 ## Mise à niveau PI OS
 ```
