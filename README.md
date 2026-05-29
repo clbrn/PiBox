@@ -22,9 +22,6 @@ répondre **Non** à la première question et **Oui** à la deuxième
 Puis encore **Oui** pour valider  
 Quitter (_Finish_) et accepter le Reboot   
 
-## Vérification Modem
-<img width="719" height="142" alt="image" src="https://github.com/user-attachments/assets/a0f0f035-68aa-4fe6-a9aa-4882d9aa86c1" />
-
 ## Mise à niveau PI OS
 ```
 sudo apt update && sudo apt upgrade   
@@ -36,7 +33,10 @@ sudo apt install libqmi-utils udhcpc minicom modemmanager
 ```
 puis faire un Reboot   
 
-## Vérifiet la connexion du modem avec minicom
+## Vérification Modem
+<img width="719" height="142" alt="image" src="https://github.com/user-attachments/assets/a0f0f035-68aa-4fe6-a9aa-4882d9aa86c1" />
+
+## Vérifier la connexion du modem avec minicom
 ```
 sudo minicom -b 115200 -D /dev/ttyUSB2
 ```
