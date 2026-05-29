@@ -52,7 +52,19 @@ sudo mmcli -L
 ```
 <img width="763" height="111" alt="image" src="https://github.com/user-attachments/assets/559bd640-921f-4d3e-a332-e6792ee789ef" />
 
-Ici modem 0
+Ici modem 0   
+
+## Activation du modem
+```
+sudo mmcli -m 0 --enable
+```
+<img width="632" height="117" alt="image" src="https://github.com/user-attachments/assets/64681260-4577-449d-9ec1-7698111a2e86" />
+```
+sudo mmcli -m 0 --simple-connect='apn=orange,ip-type=ipv4v6'
+```
+```
+sudo mmcli -m 0 -b 1
+```
 
 ## cloner le dépot PiBox
 ```
