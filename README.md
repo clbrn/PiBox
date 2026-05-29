@@ -8,6 +8,15 @@ nom de l'hote : **PiBox**
 utilisateur  : _pibox_   
 mot de passe : _pibox_   
 
+## connexion au Raspberry avec le Mac
+Le Raspbery est connecté au réseau local via Ethernet, recherche de l'adresse ip (j'utilise Angry IP Scaner) ici 192.168.1.34  
+connexion au Mac avec le terminal
+```
+ssh pibox@192.168.1.34
+```
+<img width="791" height="282" alt="image" src="https://github.com/user-attachments/assets/51e6fce4-5148-412f-9fae-56f6403598ef" />
+
+
 ## Mise a jour configuration Raspberry
 Activation du port serie et parametrage du pay pour le WiFi   
 ```
