@@ -100,8 +100,19 @@ sudo nmcli connection add type gsm ifname '*' con-name 'orange' apn 'orange' con
 ```
 <img width="880" height="96" alt="image" src="https://github.com/user-attachments/assets/eedaaff8-c1e7-4a20-9a14-93b93206f0ae" />
 
-Vérification des connexion et des Device Network Manager
+Vérification des connexions et des Devices Network Manager
 <img width="764" height="210" alt="image" src="https://github.com/user-attachments/assets/f42069d5-c5d0-44cd-a897-75e18e5d1bd1" />
+
+
+A ce stade le Raspberry et connexté à Internet, mais la connexion n'est pas partagée
+Vérification en faisant un Poing sur l'interface wwan0
+```
+ping -c 5 -I wwan0 google.fr
+```
+<img width="812" height="211" alt="image" src="https://github.com/user-attachments/assets/8942854b-04d3-49c3-bf44-916defb5d137" />
+**Ca fonctionne!**
+
+
 
 
 ## cloner le dépot PiBox
