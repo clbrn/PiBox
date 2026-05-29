@@ -20,21 +20,14 @@ Choissir **"Fr"** dans la liste et valider
 Choix **3** _Interface Option_, puis choix **I6** _Serial Port_
 répondre **Non** à la première question et **Oui** à la deuxième   
 Puis encore **Oui** pour valider  
-Quitter et accepter le Reboot   
+Quitter (_Finish_) et accepter le Reboot   
 
 ## Vérification Modem
-<img width="719" height="142" alt="image" src="https://github.com/user-attachments/assets/a0f0f035-68aa-4fe6-a9aa-4882d9aa86c1" />
+<img width="719" height="142" alt="image" src="https://github.com/user-attachments/assets/a0f0f035-68aa-4fe6-a9aa-4882d9aa86c1" />   
 
-
+## Mise à niveau PI OS
 ```
-pibox@PiBox:~ $ lsusb
-Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
-Bus 003 Device 002: ID 2c7c:0125 Quectel Wireless Solutions Co., Ltd. EC25 LTE modem
-Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
-Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
-Bus 001 Device 002: ID 046d:c52b Logitech, Inc. Unifying Receiver
-Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
-pibox@PiBox:~ $
+sudo apt update && sudo apt upgrade   
 ```
 
 ## cloner le dépot PiBox
