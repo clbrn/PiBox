@@ -142,6 +142,14 @@ sudo nmcli connection add con-name PiBox ifname wlan0 type wifi slave-type bridg
 ```
 <img width="984" height="102" alt="image" src="https://github.com/user-attachments/assets/64fe0515-74ce-48c0-9ba9-b9157c2382ce" />
 
+### Mettre le Bridge en IP statique
+```
+sudo nmcli con mod "Bridge" ipv4.method manual
+```
+
+```
+sudo nmcli con mod "Bridge" ipv4.addresses 192.168.0.1/24
+```
 
 ## cloner le dépot PiBox
 ```
