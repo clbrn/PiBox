@@ -68,6 +68,7 @@ sudo mmcli -m 0 --simple-connect='apn=orange,ip-type=ipv4v6'
 sudo mmcli -m 0 -b 1
 ```
 <img width="621" height="547" alt="image" src="https://github.com/user-attachments/assets/f75a89be-3c87-46ec-8c5c-a032d581236f" />
+   
 Modem connecté, adresse IP obtenue
 
 ## Activation wwan0
