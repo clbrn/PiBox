@@ -24,7 +24,8 @@ Puis encore **Oui** pour valider
   Quitter et accepter le Reboot
 
 ## Vérification Modem
-`pibox@PiBox:~ $ lsusb
+```
+pibox@PiBox:~ $ lsusb
 Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 Bus 003 Device 002: ID 2c7c:0125 Quectel Wireless Solutions Co., Ltd. EC25 LTE modem
 Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
@@ -32,7 +33,7 @@ Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 Bus 001 Device 002: ID 046d:c52b Logitech, Inc. Unifying Receiver
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 pibox@PiBox:~ $ 
-`
+```
 
 
 ## cloner le dépot PiBox
