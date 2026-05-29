@@ -19,9 +19,9 @@ Choissir **"Fr"** dans la liste et valider
 ### Port Serie
 Choix **3** _Interface Option_, puis choix **I6** _Serial Port_
 répondre **Non** à la première question et **Oui** à la deuxième   
-Puis encore **Oui** pour valider   
+Puis encore **Oui** pour valider  
+<span style="color: green"> Quitter et accepter le reboot </span>   
 
-</span>  Quitter et accepter le reboot </span>
 
 ## Vérification Modem
 ```
