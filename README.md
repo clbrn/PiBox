@@ -100,6 +100,9 @@ sudo nmcli connection add type gsm ifname '*' con-name 'orange' apn 'orange' con
 ```
 <img width="880" height="96" alt="image" src="https://github.com/user-attachments/assets/eedaaff8-c1e7-4a20-9a14-93b93206f0ae" />
 
+Vérification des connexion et des Device Network Manager
+<img width="764" height="210" alt="image" src="https://github.com/user-attachments/assets/f42069d5-c5d0-44cd-a897-75e18e5d1bd1" />
+
 
 ## cloner le dépot PiBox
 ```
