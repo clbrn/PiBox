@@ -35,17 +35,17 @@ Quitter (_Finish_) et accepter le Reboot
 ```
 sudo apt update && sudo apt upgrade   
 ```
-
-## installation des paquets nécessaires pour le modem
+## Partie Modem
+### installation des paquets nécessaires pour le modem
 ```
 sudo apt install libqmi-utils udhcpc minicom modemmanager
 ```
 puis faire un Reboot   
 
-## Vérification Modem
+### Vérification Modem
 <img width="719" height="142" alt="image" src="https://github.com/user-attachments/assets/a0f0f035-68aa-4fe6-a9aa-4882d9aa86c1" />
 
-## Vérifier la connexion du modem avec minicom
+### Vérifier la connexion du modem avec minicom
 ```
 sudo minicom -b 115200 -D /dev/ttyUSB2
 ```
@@ -55,7 +55,7 @@ Réponses attendues Ok (le premier ATE ne sera peut-etre pas visible si l'écho 
    
 Quitter minicom (_ctrl A puis X_)
 
-## Identification Modem avec Modem Manager
+### Identification Modem avec Modem Manager
 ```
 sudo mmcli -L
 ```
@@ -63,7 +63,7 @@ sudo mmcli -L
 
 Ici modem 0   
 
-## Activation du modem
+### Activation du modem
 ```
 sudo mmcli -m 0 --enable
 ```
@@ -89,12 +89,12 @@ sudo mmcli -m 0 -b 1
    
 Modem connecté, adresse IP obtenue
 
-## Activation wwan0
+### Activation wwan0
 ```
 sudo ip link set wwan0 up
 ```
 
-## Création de la connexion avec Network-Manager 
+### Création de la connexion avec Network-Manager 
 ```
 sudo nmcli connection add type gsm ifname '*' con-name 'orange' apn 'orange' connection.autoconnect yes
 ```
