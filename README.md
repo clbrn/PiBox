@@ -8,7 +8,12 @@ nom de l'hote : **PiBox**
 utilisateur  : _pibox_   
 mot de passe : _pibox_   
 
-## cloner le dépot
+## Mise a jour configuration raspberry
+Activation du port serie et parametrage du pay pour le WiFi   
+```
+sudo raspi-config
+```
+## cloner le dépot PiBox
 ```
 git clone https://github.com/clbrn/PiBox.git
 ```
