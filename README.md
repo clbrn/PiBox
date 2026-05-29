@@ -36,7 +36,7 @@ Quitter (_Finish_) et accepter le Reboot
 sudo apt update && sudo apt upgrade   
 ```
 ## Partie Modem
-### installation des paquets nécessaires pour le modem
+### installation des paquets 
 ```
 sudo apt install libqmi-utils udhcpc minicom modemmanager
 ```
@@ -114,6 +114,17 @@ ping -c 5 -I wwan0 google.fr
 **Ca fonctionne!**
 
 
+## Partie Routeur
+### installation des paquets 
+```
+sudo apt install dnsmasq iptables iptables-persistent
+```
+
+### Activation du forwarding
+```
+sudo apt install dnsmasq iptables iptables-persistent
+```
+Ajouter la ligne **net.ipv4.ip_forward=1** à la fin du fichier
 
 
 ## cloner le dépot PiBox
