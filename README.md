@@ -205,10 +205,3 @@ et faire in ping.
 <img width="657" height="280" alt="image" src="https://github.com/user-attachments/assets/1eb4da62-fadc-4e53-8e98-c84973ba8fb6" />
 
  **C'est tout Bon...**   
-
-
-## cloner le dépot PiBox
-```
-git clone https://github.com/clbrn/PiBox.git
-```
-
