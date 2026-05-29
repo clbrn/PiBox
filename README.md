@@ -63,6 +63,7 @@ sudo mmcli -m 0 --enable
 ```
 sudo mmcli -m 0 --simple-connect='apn=orange,ip-type=ipv4v6'
 ```
+**Trace écran a rajouter   **
 
 ```
 sudo mmcli -m 0 -b 1
