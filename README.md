@@ -30,6 +30,12 @@ Quitter (_Finish_) et accepter le Reboot
 sudo apt update && sudo apt upgrade   
 ```
 
+## installation des paquets nécessaires pour le modem
+```
+sudo apt install libqmi-utils udhcpc minicom modemmanager
+```
+puis faire un Reboot
+
 ## cloner le dépot PiBox
 ```
 git clone https://github.com/clbrn/PiBox.git
