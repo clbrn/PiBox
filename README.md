@@ -235,4 +235,27 @@ i2cdetect -y 1
 ```
 <img width="463" height="188" alt="image" src="https://github.com/user-attachments/assets/c59b1726-936e-41fb-99b8-88f5065dc206" />
 
-L'adresse de l'écran est 0x3C
+L'adresse de l'écran est 0x3C   
+
+### Environnement virtuel
+Création   
+```
+python3 -m venv ~/luma-env
+```
+Installation package luma-oledc  
+```
+~/luma-env/bin/python -m pip install --upgrade luma.oled
+```
+Installation package pyserial
+```
+~/luma-env/bin/python -m pip install pyserial
+```
+Installation des dependances
+```
+sudo apt-get install python3 python3-pip python3-pil libjpeg-dev zlib1g-dev libfreetype6-dev liblcms2-dev libopenjp2-7
+```
+Mise a jour des droits
+```
+sudo usermod -a -G spi,gpio,i2c pi
+```
+
