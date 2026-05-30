@@ -8,3 +8,10 @@
 
 ## Carte SIM Orange  
 J'ai utilisé la Multi Sim qui est normalement dans mon iPad
+
+ ## Ventilateur Noctua NF-A4x10
+ <img width="1206" height="490" alt="image" src="https://github.com/user-attachments/assets/d8b3d9f9-aeca-4a30-b64c-789aa841d0fe" />
+
+  ## Ecran OLED 1,3" SH1106 I2C
+  <img width="980" height="531" alt="image" src="https://github.com/user-attachments/assets/247d2010-19ac-4e82-8dd7-ddd2355567cf" />
+
