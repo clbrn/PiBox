@@ -219,9 +219,13 @@ Répondre **Oui** puis valider et quitter
 dmesg | grep i2c
 ```
 <img width="980" height="101" alt="image" src="https://github.com/user-attachments/assets/ac3cb926-f388-4923-a317-262dc8767116" />
-L'interface I2C est bien activée.
-
-
+L'interface I2C est bien activée.   
+   
+Ajouter pibox au groupe I2C
 ```
-
+sudo usermod -a -G i2c pi
+```
+Installer i2c-tools   
+```
+sudo apt-get install i2c-tools
 ```
