@@ -205,3 +205,23 @@ et faire in ping.
 <img width="657" height="280" alt="image" src="https://github.com/user-attachments/assets/1eb4da62-fadc-4e53-8e98-c84973ba8fb6" />
 
  **C'est tout Bon...**   
+
+
+## Partie écran OLED SH1106
+### Activation interface I2C et vérification
+```
+sudo raspi-config
+```
+Choix **3** _Interface Option_, puis choix **I5** _I2C_   
+Répondre **Oui** puis valider et quitter
+
+```
+dmesg | grep i2c
+```
+<img width="980" height="101" alt="image" src="https://github.com/user-attachments/assets/ac3cb926-f388-4923-a317-262dc8767116" />
+L'interface I2C est bien activée.
+
+
+```
+
+```
