@@ -229,3 +229,10 @@ Installer i2c-tools
 ```
 sudo apt-get install i2c-tools
 ```
+Vérification de l'adresse de l'écran
+```
+i2cdetect -y 1
+```
+<img width="463" height="188" alt="image" src="https://github.com/user-attachments/assets/c59b1726-936e-41fb-99b8-88f5065dc206" />
+
+L'adresse de l'écran est 0x3C
