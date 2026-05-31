@@ -223,7 +223,7 @@ L'interface I2C est bien activée.
    
 Ajouter pibox au groupe I2C
 ```
-sudo usermod -a -G i2c pi
+sudo usermod -a -G i2c pibox
 ```
 Installer i2c-tools   
 ```
