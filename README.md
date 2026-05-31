@@ -38,7 +38,7 @@ sudo apt update && sudo apt upgrade
 ## Partie Modem
 ### installation des paquets 
 ```
-sudo apt install libqmi-utils udhcpc minicom modemmanager
+sudo apt install libqmi-utils udhcpc minicom 
 ```
 puis faire un Reboot   
 
