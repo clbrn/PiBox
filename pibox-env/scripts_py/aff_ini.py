@@ -11,11 +11,6 @@ import RPi.GPIO as GPIO
 dvs20 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans",20)
 dvs10 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans",10)
 
-
-ser = serial.Serial('/dev/ttyUSB3', baudrate = 115200, timeout = 1,rtscts=True, dsrdtr=True)
-ser.close()
-ser.open()
-
 seri2c = i2c(port=1, address=0x3C)
 
 device = sh1106(seri2c)
