@@ -256,6 +256,27 @@ sudo apt-get install python3 python3-pip python3-pil libjpeg-dev zlib1g-dev libf
 ```
 Mise a jour des droits
 ```
-sudo usermod -a -G spi,gpio,i2c pi
+sudo usermod -a -G gpio,i2c pibox
 ```
+
+### Conflit Modem Manager pyserial
+Mes scripts python qui lance des commande AT sur ttyUSB3 plante car ttyUSB3 est bloqué par Modem Manager.   
+```
+sudo apt install lsof
+```
+```
+sudo lsof /dev/ttyUSB3
+```
+Apres de longues recherches et beaucoup d'éssais infructueux, j'ai trouvé une méthode qui marche pour l'instant.   
+Mais pas certain que ce soit la bonne.   
+
+Modification du fichier /lib/udev/rules.d/77-mm-quectel-port-types.rules et ahout de ENV{ID_MM_DEVICE_IGNORE}="1" à la fin de la règle USB3 pour le module EC25
+```
+sudo nano 77-mm-quectel-port-types.rules
+```
+Apès modification
+<img width="1205" height="160" alt="image" src="https://github.com/user-attachments/assets/51598c2f-7e8d-4e3c-bf87-46641cc6cd0b" />
+
+
+
 
