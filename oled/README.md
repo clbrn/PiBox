@@ -7,7 +7,7 @@ sudo apt install git
 
 ### cloner le dépot PiBox
 ```
-git clone https://github.com/clbrn/PiBox.git
+git clone https://github.com/clbrn/oled.git
 ```
 ### Copie scripts Python affichage de l'environnement virtuel
 ```
