@@ -10,5 +10,5 @@
 # Description:       Lancement su script aff_ini.py au démarrage
 ### END INIT INFO
 
-cd /home/pibox/luma
+cd /home/pibox/luma_env
 aff_ini.py
