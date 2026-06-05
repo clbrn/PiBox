@@ -29,17 +29,17 @@ def antenne():
 
 def signal(niv):
     if niv > 0:
-          draw.line((115,10,115,8), fill=255)
-          draw.line((116,10,116,8), fill=255)
+          draw.line((15,10,15,8), fill=255)
+          draw.line((16,10,16,8), fill=255)
     if niv > 8:
-          draw.line((118,10,118,6), fill=255)
-          draw.line((119,10,119,6), fill=255)
+          draw.line((18,10,18,6), fill=255)
+          draw.line((19,10,19,6), fill=255)
     if niv > 17:
-          draw.line((121,10,121,4), fill=255)
-          draw.line((122,10,122,4), fill=255)
+          draw.line((21,10,21,4), fill=255)
+          draw.line((22,10,22,4), fill=255)
     if niv > 26:
-          draw.line((124,10,124,2), fill=255)
-          draw.line((125,10,125,2), fill=255)
+          draw.line((24,10,24,2), fill=255)
+          draw.line((25,10,25,2), fill=255)
 
 def code_apn():
     cmde = bytes(b'AT+QSPN\r')
@@ -95,7 +95,7 @@ with canvas(device) as draw:
     antenne()
     signal(sig)
     time = get_time()
-    draw.text((12, 0), apn, font=dvs12, fill=255)
+    draw.text((40, 0), apn, font=dvs12, fill=255)
     draw.text((28, 13), time, font=dvs28, fill=255)
     draw.text((17,50), "GW : 192.168.0.1", font=dvs12, fill=255)
 
