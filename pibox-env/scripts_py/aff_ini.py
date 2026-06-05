@@ -1,4 +1,4 @@
-#!/home/pibox/luma-env/bin/python
+#!/home/pibox/luma/bin/python
 #
 from luma.core.interface.serial import i2c
 from luma.core.render import canvas
