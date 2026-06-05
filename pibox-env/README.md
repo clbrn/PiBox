@@ -38,7 +38,7 @@ sudo cp ~/PiBox/pibox-env/scripts_sh/aff_ini.sh /etc/init.d
 cd /etc/init.d
 ```
 ```
-sudo chmod +x ~/luma-env/aff_ini.sh
+sudo chmod +x aff_ini.sh
 ```
 ```
 sudo update-rc.d aff_ini.sh defaults
