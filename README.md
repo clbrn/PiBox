@@ -267,7 +267,7 @@ sudo apt install lsof
 ```
 sudo lsof /dev/ttyUSB3
 ```
-<img width="594" height="84" alt="image" src="https://github.com/user-attachments/assets/bdf57d71-0de6-4692-97c0-c5c5433cb514" />
+<img width="594" height="84" alt="image" src="https://github.com/user-attachments/assets/bdf57d71-0de6-4692-97c0-c5c5433cb514" />   
 le process 668 de Modem Manager utilise le port ttyUSB3
 
 Apres de longues recherches et beaucoup d'éssais infructueux, j'ai trouvé une méthode qui marche pour l'instant.   
