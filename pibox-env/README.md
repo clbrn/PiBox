@@ -11,14 +11,14 @@ git clone https://github.com/clbrn/PiBox.git
 ```
 ### Copie scripts Python affichage de l'environnement virtuel
 ```
-sudo cp ~/PiBox/pibox-env/scripts_py/*.py ~/luma-env
+sudo cp ~/PiBox/pibox-env/scripts_py/*.py ~/luma_env
 ```
 Rendre les scripts exécutables
 ```
-sudo chmod +x ~/luma-env/aff_oled.py
+sudo chmod +x ~/luma_env/aff_oled.py
 ```
 ```
-sudo chmod +x ~/luma-env/aff_ini.py
+sudo chmod +x ~/luma_env/aff_ini.py
 ```
 
 ### lancement du script d'affichage toute les minutes
@@ -27,7 +27,7 @@ sudo crontab -e
 ```
 Ajouter la ligne dans crontab
 ```
-*/1 * * * *          /home/pibox/luma-env/aff_oled.py
+*/1 * * * *          /home/pibox/luma_env/aff_oled.py
 ```
 ### Copie scripts Python affichage demarrage dans le répertoire /etc/init.d
 ```
