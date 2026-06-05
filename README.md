@@ -267,11 +267,12 @@ sudo apt install lsof
 ```
 sudo lsof /dev/ttyUSB3
 ```
-<img width="594" height="84" alt="image" src="https://github.com/user-attachments/assets/bdf57d71-0de6-4692-97c0-c5c5433cb514" />   
+<img width="594" height="84" alt="image" src="https://github.com/user-attachments/assets/bdf57d71-0de6-4692-97c0-c5c5433cb514" />
+   
 le process 668 de Modem Manager utilise le port ttyUSB3
 
-Apres de longues recherches et beaucoup d'éssais infructueux, j'ai trouvé une méthode qui marche pour l'instant.   
-Mais pas certain que ce soit la bonne.   
+Apres de longues recherches et beaucoup d'éssais infructueux, j'ai trouvé un palliatif qui fonctionne.   
+Mais pas certain que ce soit tres orthodoxe.   
 
 Modification du fichier /lib/udev/rules.d/77-mm-quectel-port-types.rules et ahout de ENV{ID_MM_DEVICE_IGNORE}="1" à la fin de la règle USB3 pour le module EC25
 ```
