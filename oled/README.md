@@ -1,5 +1,30 @@
 # Installation écran OLED type SH1106
 
+## Environnement virtuel Python
+### Création
+```
+python3 -m venv ~/luma_env
+```
+### Installation
+```
+~/luma_env/bin/python -m pip install --upgrade luma.oled
+```
+```
+~/luma_env/bin/python -m pip install pyserial
+```
+```
+~/luma_env/bin/python -m pip install RPi.GPIO
+```
+###
+Dépendances
+```
+sudo apt-get install python3 python3-pip python3-pil libjpeg-dev zlib1g-dev libfreetype6-dev liblcms2-dev libopenjp2-7 -y
+```
+Droits
+```
+sudo usermod -a -G gpio,i2c pibox
+```
+
 ### Installer GIT
 ```
 sudo apt install git
