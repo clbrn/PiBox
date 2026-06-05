@@ -11,11 +11,14 @@ git clone https://github.com/clbrn/PiBox.git
 ```
 ### Copie scripts Python affichage de l'environnement virtuel
 ```
-sudo cp ~/pibox/pibox-env/scripts_py/aff_oled.py ~/luma-env
+sudo cp ~/PiBox/pibox-env/scripts_py/*.py ~/luma-env
 ```
-Rendre le script exécutable
+Rendre les scripts exécutables
 ```
 sudo chmod +x ~/luma-env/aff_oled.py
+```
+```
+sudo chmod +x ~/luma-env/aff_ini.py
 ```
 
 ### lancement du script d'affichage toute les minutes
