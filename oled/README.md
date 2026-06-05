@@ -7,11 +7,11 @@ sudo apt install git
 
 ### cloner le dépot PiBox
 ```
-git clone https://github.com/clbrn/oled.git
+git clone https://github.com/clbrn/PiBox.git clbrn
 ```
 ### Copie scripts Python affichage de l'environnement virtuel
 ```
-sudo cp ~/PiBox/pibox-env/scripts_py/*.py ~/luma_env
+sudo cp ~/clbrn/oled/scripts_py/*.py ~/luma_env
 ```
 Rendre les scripts exécutables
 ```
