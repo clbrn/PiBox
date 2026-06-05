@@ -31,7 +31,7 @@ Ajouter la ligne dans crontab
 ```
 ### Copie scripts Python affichage demarrage dans le répertoire /etc/init.d
 ```
-sudo cp ~/PiBox/pibox-env/scripts_sh/aff_ini.sh /etc/init.d
+sudo cp ~/clbrn/oled/scripts_sh/aff_ini.sh /etc/init.d
 ```
 ### Automatiser le lancement au démarrage
 ```
