@@ -18,7 +18,7 @@ ssh pibox@192.168.1.34
 
 
 ## Mise a jour configuration Raspberry
-Activation du port serie et parametrage du pay pour le WiFi   
+Activation du port serie et parametrage du pays pour le WiFi   
 ```
 sudo raspi-config
 ```
