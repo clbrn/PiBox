@@ -242,7 +242,7 @@ Création
 ```
 python3 -m venv ~/luma-env
 ```
-Installation package luma-oledc  
+Installation package luma-oled  
 ```
 ~/luma-env/bin/python -m pip install --upgrade luma.oled
 ```
@@ -260,7 +260,7 @@ sudo usermod -a -G gpio,i2c pibox
 ```
 
 ### Conflit Modem Manager pyserial
-Mes scripts python qui lance des commande AT sur ttyUSB3 plante car ttyUSB3 est bloqué par Modem Manager.   
+Mes scripts python qui lancent des commandes AT sur ttyUSB3 plantent car ttyUSB3 est bloqué par Modem Manager.   
 ```
 sudo apt install lsof
 ```
@@ -274,7 +274,7 @@ le process 668 de Modem Manager utilise le port ttyUSB3
 Apres de longues recherches et beaucoup d'éssais infructueux, j'ai trouvé un palliatif qui fonctionne.   
 Mais pas certain que ce soit tres orthodoxe.   
 
-Modification du fichier /lib/udev/rules.d/77-mm-quectel-port-types.rules et ahout de ENV{ID_MM_DEVICE_IGNORE}="1" à la fin de la règle USB3 pour le module EC25
+Modification du fichier /lib/udev/rules.d/77-mm-quectel-port-types.rules et ajout de ENV{ID_MM_DEVICE_IGNORE}="1" à la fin de la règle USB3 pour le module EC25
 ```
 sudo nano /lib/udev/rules.d/77-mm-quectel-port-types.rules
 ```
