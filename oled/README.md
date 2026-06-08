@@ -15,12 +15,11 @@ python3 -m venv ~/luma_env
 ```
 ~/luma_env/bin/python -m pip install RPi.GPIO
 ```
-###
-Dépendances
+### Dépendances
 ```
 sudo apt-get install python3 python3-pip python3-pil libjpeg-dev zlib1g-dev libfreetype6-dev liblcms2-dev libopenjp2-7 -y
 ```
-Droits
+### Droits
 ```
 sudo usermod -a -G gpio,i2c pibox
 ```
