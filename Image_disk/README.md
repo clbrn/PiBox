@@ -24,3 +24,6 @@ Résactiver le Hotspot
 ```
 sudo nmcli con up PiBox
 ```
+
+<img width="924" height="112" alt="image" src="https://github.com/user-attachments/assets/02cb32ca-90cd-4ceb-a47f-c7ef1c89b31c" />
+
