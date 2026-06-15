@@ -2,6 +2,9 @@
 ## Téléchargement Image
 Télécharger l'image disque "PiBox_Orange.img.gz" dans la Release "Image Disque".
 <img width="1279" height="437" alt="Capture d’écran 2026-06-15 à 08 34 31" src="https://github.com/user-attachments/assets/2801ed04-86c6-41c1-996f-44067ea1570d" />
+
+<img width="1287" height="524" alt="Capture d’écran 2026-06-15 à 08 59 37" src="https://github.com/user-attachments/assets/33527cc8-8b9b-489d-bd38-368cecfe1385" />
+
 Décompresser le fichier.   
 
 ## Ecriture carte SD
