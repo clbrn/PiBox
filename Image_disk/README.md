@@ -7,7 +7,7 @@ Décompresser le fichier.
 Graver le fichier PiBox_Orange.img sur la carte SD (option "utiliser une image personnalisée" de "Raspberry Pi Imager".   
 ## Personalisation
 Changer le mot de pasee du Hotspot :
-"""
+```
 sudo nmcli con down PiBox
-"""
+```
 
